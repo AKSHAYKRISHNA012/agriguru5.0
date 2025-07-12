@@ -13,7 +13,7 @@ const HeroSection = () => {
           className="w-full h-full object-cover"
           poster="https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=2"
         >
-          <source src="drone-farm.mp4" type="video/mp4" />
+          <source src="https://dl.dropbox.com/scl/fi/evlrc7gsay8t2aipd2m4t/drone-farm.mp4?rlkey=5sfvohslvavvg2mqcr0ra9nj3&st=58bzxscb&dl=0" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>

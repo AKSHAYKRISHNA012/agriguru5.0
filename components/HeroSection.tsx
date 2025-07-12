@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center text-center text-white overflow-hidden">
       <div className="absolute inset-0">
-        {/* Using a working video URL from Pexels */}
+        {/* Agriculture-themed background with improved fallback */}
         <video
           autoPlay
           loop
@@ -13,16 +13,15 @@ const HeroSection = () => {
           className="w-full h-full object-cover"
           poster="https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=2"
           onError={(e) => {
-            console.log('Video failed to load, falling back to poster image');
+            console.log('Video failed to load, falling back to background image');
             e.target.style.display = 'none';
           }}
+          onLoadStart={() => console.log('Video loading started')}
+          onCanPlay={() => console.log('Video can play')}
         >
-          {/* Primary video source - Tom Fisk's drone footage of rice field terraces */}
-          <source src="https://videos.pexels.com/video-files/2994205/2994205-hd_1920_1080_25fps.mp4" type="video/mp4" />
-          
-          {/* Fallback sources */}
-          <source src="https://videos.pexels.com/video-files/2795750/2795750-hd_1920_1080_30fps.mp4" type="video/mp4" />
-          <source src="https://videos.pexels.com/video-files/2086113/2086113-hd_1920_1080_25fps.mp4" type="video/mp4" />
+          {/* Working agriculture-themed videos */}
+          <source src="https://dl.dropbox.com/scl/fi/evlrc7gsay8t2aipd2m4t/drone-farm.mp4?rlkey=5sfvohslvavvg2mqcr0ra9nj3&st=52g3d56c&dl=0" type="video/mp4" />
+          <source src="https://dl.dropbox.com/scl/fi/evlrc7gsay8t2aipd2m4t/drone-farm.mp4?rlkey=5sfvohslvavvg2mqcr0ra9nj3&st=52g3d56c&dl=0" type="video/mp4" />
           
           Your browser does not support the video tag.
         </video>

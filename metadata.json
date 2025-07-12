@@ -1,0 +1,9 @@
+{
+  "name": "Copy of AgriGuru AI",
+  "description": "An AI-powered web application for farmers, offering crop disease detection, fruit ripeness analysis, crop identification, and a helpful chatbot to provide data-driven agricultural insights.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "prompt": ""
+}

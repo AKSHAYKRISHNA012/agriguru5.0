@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Run and deploy your AI Studio app
 
 This contains everything you need to run your app locally.
@@ -17,3 +18,6 @@ This contains everything you need to run your app locally.
 "# hiuhiuhiubkhhbk" 
 "# agriguru3.0" 
 "# hiuhiuhiubkhhbk" 
+=======
+# agriguru5.0
+>>>>>>> 9bb2e1507c1c7071622e2844b889f796ed01962b

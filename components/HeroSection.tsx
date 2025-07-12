@@ -17,10 +17,11 @@ const HeroSection = () => {
             e.target.style.display = 'none';
           }}
         >
-          {/* Primary video source - using a working agriculture video */}
-          <source src="https://videos.pexels.com/video-files/2795750/2795750-hd_1920_1080_30fps.mp4" type="video/mp4" />
+          {/* Primary video source - Tom Fisk's drone footage of rice field terraces */}
+          <source src="https://videos.pexels.com/video-files/2994205/2994205-hd_1920_1080_25fps.mp4" type="video/mp4" />
           
           {/* Fallback sources */}
+          <source src="https://videos.pexels.com/video-files/2795750/2795750-hd_1920_1080_30fps.mp4" type="video/mp4" />
           <source src="https://videos.pexels.com/video-files/2086113/2086113-hd_1920_1080_25fps.mp4" type="video/mp4" />
           
           Your browser does not support the video tag.
